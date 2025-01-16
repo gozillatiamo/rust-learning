@@ -1,0 +1,8 @@
+[package]
+name = "redis-expiration"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["macros"] }
+redis = { version = "0.22", features = ["tokio-comp"] }
